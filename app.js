@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const API_KEY = 'AIzaSyDOjulHHRPPYCclTOSxTb3mnl419B1CfpI'
+const API_KEY = ''
 
 if (!API_KEY) {
   console.log('No API key provided')
