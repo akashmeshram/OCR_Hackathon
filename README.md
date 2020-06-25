@@ -3,6 +3,7 @@
 * Node Package Manager
 
 ## Getting Started 
+add API key in app.js
 
 ```
 npm install
