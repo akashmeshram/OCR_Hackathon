@@ -29,7 +29,7 @@ const reqObj = {
 }
 
 axios.post(apiCall, reqObj).then((response) => {
-    fs.writeFile('./results/image_result.txt', JSON.stringify(response.data.responses), function (err) {
+    fs.writeFile('./results/image_result.txt', JSON.stringify(response.data.responses, null, 4), function (err) {
         if (err) throw err;
         console.log('Text extracted in ./results');
       });
