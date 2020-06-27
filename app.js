@@ -38,3 +38,6 @@ axios.post(apiCall, reqObj).then((response) => {
 }).catch((e) => {
     console.log(e.response);
 });
+
+// let jsonData = require('./results/image_result.json');
+// console.log(jsonData[0]['textAnnotations'][0]['descriptionZZz']);
