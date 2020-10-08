@@ -41,13 +41,10 @@ PyPDF2, PIL, poppler, pdf2image
 * In Project Directory run ( for Powershell), (for other shells, see)
 ```
  $env:FLASK_ENV = "development"
-```
-```
-$env:FLASK_APP = "Main.py"
-```
-```
+ $env:FLASK_APP = "Main.py"
  Flask run 
 ```
+
 (app will run on port 5000)
 
 ### Usage
