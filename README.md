@@ -34,11 +34,11 @@ PyPDF2, PIL, poppler, pdf2image
 
 ### Installing
 
-1) Make sure your AWS credentials are in 
+* Make sure your AWS credentials are in 
 ```
  “C:\Users\<user name>\.aws\credentials”
 ```
-2) In Project Directory run ( for Powershell), (for other shells, see)
+* In Project Directory run ( for Powershell), (for other shells, see)
 ```
  $env:FLASK_ENV = "development"
 ```
